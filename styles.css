@@ -1,0 +1,71 @@
+body {
+    display: block;
+    margin: 0 auto;
+    /*background-image: url("https://www.designbolts.com/wp-content/uploads/2021/01/hd-blue-sky-with-clouds-image-1.jpg");*/
+    /*background-image: url("https://i.4cdn.org/w/1672764198070554.png");*/
+    /*background-image: url("https://images.creativemarket.com/0.1.0/ps/2108980/910/1365/m2/fpnw/wm1/cfwle43y7lezytx4wxikiukfwias1vszzsmfds9siyobzmqo08irwhibe0prhgm0-.jpg?1483991790&s=c24e8db7aabd1d6ac95c640e34d6c6c4");*/
+    /*background-image: url("https://www.desicomments.com/wallpapers/wp-content/uploads/2014/12/Ocean-Background-Image.jpg");
+    background-repeat: no-repeat;*/
+    font-family: "Open Sans", sans-serif;
+    background-color: #282828;
+}
+
+header {
+    background-color: #f2f2f2;
+    border-bottom: 3px solid #fabd2f;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fabd2f; /*#fbf1c7; /*#333*/
+    background-color: #076678;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div textarea[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 21px;
+    color: #282828;
+    background-color: #ebdbb2;
+
+    border: 2px solid black;
+    border-collapse: separate;
+    border-radius: 10px, 10px, 10px, 10px;
+}
+
+
+div button[type="submit"] {
+    border: 2px solid black;
+    border-radius: 10px, 10px, 10px, 10px;
+    background-color: #689d6a;
+    color: #282828;
+    /*color: #fbf1c7;*/
+    font-size: 21px;
+    cursor: pointer;
+    padding: 0px 10px 0px 10px;
+    margin-left: 4%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+div button[type="submit"]:hover {
+    background-color: #8ec07c;
+}
+
+button, p {
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    font-size: 21px;
+    margin-top: 0;
+    color: #d3869b;
+}
